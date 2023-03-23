@@ -10,6 +10,10 @@ export class playedGround extends Component {
     update(deltaTime: number) {
 
     }
+
+    onClick() {
+        director.emit("abc", this.node);
+    }
 }
 
 
